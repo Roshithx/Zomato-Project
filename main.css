@@ -1,0 +1,59 @@
+:root{
+    --bs-body-font-family: 'Poppins', sans-serif;
+}
+.brand{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius:50%;
+    color: red;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 70px;
+}
+.img{
+    background-image:linear-gradient(transparent, #1d0d0de9), url(images/main-bg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:480px;
+    width: auto;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+}
+.text-blue{
+    color: #192F60;
+}
+.dish{
+    height: 160px;
+    width: 160px;
+
+}
+.bg-grey{
+    color: #FBFBFB !important
+}
+.item:hover {
+    box-shadow:0px 0px 8px 0 rgb(186, 190, 186);
+    transform: scale(1.00); 
+  }
+  .zoom{
+    position:relative;
+    left:30px;
+    top: 13px;
+    color: grey;
+    
+  }
+  .restaurant-search{
+    height: 50px;
+    width: 477px;
+    
+  }
+  .container-fluid{
+    background-color: #FBFBFB;
+  }
+  .item{
+    background-color: white;
+  }
+  
